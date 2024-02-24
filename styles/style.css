@@ -1,0 +1,118 @@
+@import '../Fonts/fonts.css';
+
+html {
+    background-color: rgb(247, 238, 238);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcf7f7;
+    color: #333;
+}
+
+header {
+    color: #000000;
+    padding-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    
+    background-color: #131313;
+    padding: 15px;
+    top: 0;
+    width: auto;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    margin: 0 10px;
+}
+nav a:hover {
+    color: #b700ff; 
+}
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    width: auto;
+    display: flex;
+    margin: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-bottom: 10px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px;
+    display: block;
+}
+
+section {
+    margin: 40px 0;
+    border: 2px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+      font-size: 15px; 
+    }
+    nav {
+        width: auto;
+    }
+    nav ul {
+        flex-direction: row; 
+        align-items: center; 
+    }
+}

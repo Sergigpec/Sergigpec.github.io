@@ -25,4 +25,4 @@ SOFTWARE.
 ### Portfolio
 
 Here is my portfolio:
-[portfolio](https://Sergigpec.github.io).
+[Sergigpec.github.io](https://Sergigpec.github.io).
