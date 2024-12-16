@@ -1,4 +1,4 @@
-# Sergio Galán - Web DEveloper
+# Sergio Galán - Web Developer
 
 ## License MIT
 
